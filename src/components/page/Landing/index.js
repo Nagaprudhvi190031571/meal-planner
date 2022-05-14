@@ -1,10 +1,15 @@
 import React from 'react';
 import './Landing.css';
 import Button from '../../shared/Button';
+import Nav from '../../shared/Nav';
 
 const Landing = (props) => (
   <div className="Landing">
+    
     <div className="Landing__banner">
+    <div>
+    <Nav/>
+    </div>
       <h1 className="Landing__banner__heading">Custom Meal Planning made easy</h1>
     </div>
     <div className="Landing__data">
